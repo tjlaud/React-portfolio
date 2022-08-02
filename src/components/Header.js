@@ -1,28 +1,22 @@
 import React from "react";
 import "../App.css";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 function Header() {
   return (
     <div>
       <div className="header-bar">
         <h1>T J LAUD</h1>
-        <ul className="header-icons">
+        <ul className="header-list">
           <li>
-            <a
-              href="mailto:tjlaud@hotmail.com"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="Icons/email.svg" alt="icon-email" />
+            <a href="mailto:tjlaud@hotmail.com" target="_blank">
+              <MdOutlineMailOutline className="header-icon"></MdOutlineMailOutline>
             </a>
           </li>
-          <li class="landing-icon-list">
-            <a
-              href="https://github.com/tjlaud"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <img src="Icons/github-white.svg" alt="icon-github" />
+          <li>
+            <a href="https://github.com/tjlaud" target="_blank">
+              <FaGithub className="header-icon"></FaGithub>
             </a>
           </li>
         </ul>
