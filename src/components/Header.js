@@ -10,12 +10,20 @@ function Header() {
         <h1>T J LAUD</h1>
         <ul className="header-list">
           <li>
-            <a href="mailto:tjlaud@hotmail.com" target="_blank">
+            <a
+              href="mailto:tjlaud@hotmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MdOutlineMailOutline className="header-icon"></MdOutlineMailOutline>
             </a>
           </li>
           <li>
-            <a href="https://github.com/tjlaud" target="_blank">
+            <a
+              href="https://github.com/tjlaud"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="header-icon"></FaGithub>
             </a>
           </li>
