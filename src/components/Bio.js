@@ -3,8 +3,9 @@ import "../App.css";
 
 function Bio() {
   return (
-    <div>
+    <div className="bio-container">
       <div>About me</div>
+      <div className="photo"></div>
       <div>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
         ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis

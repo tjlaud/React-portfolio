@@ -6,8 +6,26 @@ function Header() {
     <div>
       <div className="header-bar">
         <h1>T J LAUD</h1>
-        <h3>Email</h3>
-        <h3>Github</h3>
+        <ul className="header-icons">
+          <li>
+            <a
+              href="mailto:tjlaud@hotmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="Icons/email.svg" alt="icon-email" />
+            </a>
+          </li>
+          <li class="landing-icon-list">
+            <a
+              href="https://github.com/tjlaud"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img src="Icons/github-white.svg" alt="icon-github" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );
