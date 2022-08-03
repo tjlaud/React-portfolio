@@ -29,7 +29,7 @@ body {
 }
 
 /* Narrow /mobile */
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .body-container {
     display: flex;
     flex-direction: column;
@@ -38,6 +38,13 @@ body {
   }
   .body-container > div {
     margin-top: 12vh;
+  }
+  .bio-container > p {
+    max-width: 700px;
+  }
+  .projects-container {
+    max-width: 1300px;
+    margin-top: -10vh;
   }
 }
 /* Full screen */

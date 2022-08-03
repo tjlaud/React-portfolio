@@ -19,7 +19,7 @@ function Bio() {
       <p>
         I'm Thomas Laud and I'm a front-end developer living in Hampshire. I
         have served in the military as a Weapons Systems Operator on the Chinook
-        helicopter and after nearly 15 years of operational service I made the,
+        helicopter. After nearly 15 years of operational service I made the,
         quite significant, career change into web development. <br></br>
         <br></br> I have experience working with the following languages,
         frameworks and libraries:
