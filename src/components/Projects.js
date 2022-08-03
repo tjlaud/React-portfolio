@@ -6,51 +6,207 @@ import sleepProject from "../assets/sleeptracker.png";
 import peaProject from "../assets/peashooter.png";
 import pigProject from "../assets/pig.png";
 import starProject from "../assets/stargame.png";
-import { FaGithub } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { FaGithub, FaReact } from "react-icons/fa";
+import { GoBrowser } from "react-icons/go";
 
 function Projects() {
   return (
     <div className="projects-container">
       <div>
-        <h4>The "Pig" Game</h4>
+        <h4>The Sleep App</h4>
+        <div className="project-embedded-div">
+          <img src={sleepProject} alt="my sleep project" />
+          <div>
+            <a
+              href="https://sleepappreact.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Sleep App (React)"
+            >
+              <FaReact className="project-embedded-link"></FaReact>
+            </a>
+            <a
+              href="https://github.com/tjlaud/React-App-Sleep-Tracker"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Sleep App (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>
+          A React App to track sleep hours. An exercise in building a functional
+          UI. Using React, Material UI and SCSS.
+        </p>
+      </div>
+
+      <div>
+        <h4>The Pig Game</h4>
         <div className="project-embedded-div">
           <img src={pigProject} alt="my pig project" />
           <div>
-            <FaGithub className="project-embedded-link"></FaGithub>
-            <MdOutlineMailOutline className="project-embedded-link"></MdOutlineMailOutline>
+            <a
+              href="https://piggamereact.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Pig Game (React)"
+            >
+              <FaReact className="project-embedded-link"></FaReact>
+            </a>
+            <a
+              href="https://piggamebasic.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Pig Game (Vanilla)"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/React-exercise-Pig-game"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Pig Game (React) (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+            <a
+              href="https://github.com/tjlaud/Pig-game"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Pig Game (Vanilla) (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
           </div>
         </div>
-
         <p>
-          A dice rolling game. Two versions are available one in vanilla Js and
+          A dice rolling game. Two versions are available one in vanilla JS and
           one built with React.
         </p>
       </div>
+
       <div>
-        <h4>React App Sleep Tracker</h4>
-        <img src={sleepProject} alt="Sleep Tracker App" />
-        <p>A React App for tracking Sleep. A practical UI.</p>
+        <h4>The Blocks Game</h4>
+        <div className="project-embedded-div">
+          <img src={peaProject} alt="my blocks project" />
+          <div>
+            <a
+              href="https://peashooter.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Blocks Game"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/Pea-Shooter-Game"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Blocks Game (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>A break out game built in HTML Canvas.</p>
       </div>
+
       <div>
-        <h4>The "Pea Shooter" Game</h4>
-        <img src={peaProject} alt="my blocks game project" />
-        <p>A blocks game built with HTML Canvas.</p>
+        <h4>The CSS Test Page</h4>
+        <div className="project-embedded-div">
+          <img src={cssProject} alt="my css project" />
+          <div>
+            <a
+              href="https://cssnavgridflex.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="CSS Project"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/css-nav-grid-flex"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="CSS Project (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>A single page used to test various elements of CSS.</p>
       </div>
+
       <div>
-        <h4>The "Star" Game</h4>
-        <img src={starProject} alt="my Star Game project" />
-        <p>A game built in React</p>
+        <h4>The Star Countdown Game</h4>
+        <div className="project-embedded-div">
+          <img src={starProject} alt="my star game" />
+          <div>
+            <a
+              href="https://stargamereact.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Star Game (React)"
+            >
+              <FaReact className="project-embedded-link"></FaReact>
+            </a>
+            <a
+              href="https://github.com/tjlaud/React-exercise-Star-Game"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Star Game (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>A counting game built with React.</p>
       </div>
+
       <div>
-        <h4>CSS Project</h4>
-        <img src={cssProject} alt="my CSS project" />
-        <p>A functional experiment with CSS.</p>
-      </div>
-      <div>
-        <h4>Battery Calculator</h4>
-        <img src={battProject} alt="my CSS project" />
-        <p>Two version, React and JS, of a Battery Degrade Calculator.</p>
+        <h4>The Battery Calculator</h4>
+        <div className="project-embedded-div">
+          <img src={battProject} alt="my battery calc project" />
+          <div>
+            <a
+              href="https://battcalcgenreact.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Battery Calc (React)"
+            >
+              <FaReact className="project-embedded-link"></FaReact>
+            </a>
+            <a
+              href="https://battcalcgenbasic.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Battery Calc (Vanilla)"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/React-App-Battery-Life-Calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Battery Calc (React) (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+            <a
+              href="https://github.com/tjlaud/Battery-Life-Calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Battery Calc (Vanilla) (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>
+          A simple calculator used to determine the life of a battery. Two
+          versions are available one in vanilla JS and one built with React.
+        </p>
       </div>
     </div>
   );

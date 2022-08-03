@@ -117,35 +117,44 @@ body {
   margin-bottom: 1px;
 }
 
-/* tHIS IS OBSOLETE */
-.projects-container > div > img {
-  border-radius: 26px;
-  height: 150px;
-  width: 150px;
-}
-
+/* Contains picture AND links Div */
 .project-embedded-div {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+  /* align-items: space-around; */
+  /* justify-content: ; */
+  height: 155px;
 }
-
+/* Projects picture */
 .project-embedded-div > img {
   border-radius: 150px;
   height: 150px;
   width: 150px;
+  opacity: 0.7;
+  margin-left: 1vh;
+  border: 10px solid;
+  border-color: rgba(47, 44, 51, 0.811);
 }
-
+/* Contains the project links */
 .project-embedded-div > div {
+  margin-left: 4vh;
+  margin-top: 2.7vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 150px;
+}
+/* Description of project */
+.projects-container > div > p {
+  margin: 10px;
 }
 
 .project-embedded-link {
-  padding: 2vh;
+  padding: 0.5vh;
   height: 5vh;
   width: 5vh;
+  color: rgb(229, 219, 255);
 }
 
 /* -------- Bio -------- */

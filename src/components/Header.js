@@ -14,6 +14,7 @@ function Header() {
               href="mailto:tjlaud@hotmail.com"
               target="_blank"
               rel="noopener noreferrer"
+              title="TJLaud Email Address"
             >
               <MdOutlineMailOutline className="header-icon"></MdOutlineMailOutline>
             </a>
@@ -23,6 +24,7 @@ function Header() {
               href="https://github.com/tjlaud"
               target="_blank"
               rel="noopener noreferrer"
+              title="TJLaud GitHub"
             >
               <FaGithub className="header-icon"></FaGithub>
             </a>
