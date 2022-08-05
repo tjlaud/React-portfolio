@@ -56,14 +56,14 @@ body {
   }
 }
 /* Mobile */
-@media (max-width: 475px) {
+@media (max-width: 900px) {
   .projects-container {
     margin-top: -4vh;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 675px) {
   .projects-container {
-    margin-top: 8vh;
+    margin-top: 15vh;
   }
 }
 
