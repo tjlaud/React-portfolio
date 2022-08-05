@@ -28,24 +28,19 @@ body {
   margin-top: 15vh;
   justify-items: center;
 }
-
+/* ---------Media---------- */
 /* Narrow */
 @media (max-width: 1620px) {
   .body-container {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-  }
-  .body-container > div {
-    margin-top: 12vh;
   }
   .bio-container > p {
     max-width: 700px;
   }
   .projects-container {
     max-width: 1300px;
-    margin-top: -6vh;
   }
 }
 /* Full screen */
@@ -58,16 +53,16 @@ body {
 /* Mobile */
 @media (max-width: 900px) {
   .projects-container {
-    margin-top: -4vh;
+    margin-top: -2vh;
   }
   /* Contains the project links */
   .project-embedded-div > div {
     height: 100px;
   }
 }
-@media (max-width: 675px) {
-  .projects-container {
-    margin-top: 12vh;
+@media (max-width: 675px) or (max-height: 675px) {
+  .projects-container > h2 {
+    margin-top: 10vh;
   }
 }
 
@@ -113,7 +108,6 @@ body {
 .projects-container > h2 {
   width: 100%;
   text-align: center;
-  margin-top: -6vh;
 }
 .projects-container > div {
   height: 300px;
@@ -202,7 +196,6 @@ body {
 }
 aside {
   width: 300px;
-  /* box-shadow: 8px 8px 10px var(--background-dark); */
   height: 150px;
 }
 aside > img,
@@ -210,15 +203,8 @@ aside > img,
   padding: 0.5vh;
   height: 5vh;
   width: 5vh;
-  margin-bottom: 2vh;
+  /* margin-bottom: 2vh; */
 }
 .bio-logo {
   color: #61dbfb;
 }
-
-/* To Do */
-
-/* Footer */
-/* make react logo the correct colour,
-change font,
- */
