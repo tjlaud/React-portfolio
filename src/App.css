@@ -1,5 +1,6 @@
 * {
   margin-top: 0;
+  font-family: Calibri, sans-serif;
 }
 
 html {
@@ -28,8 +29,8 @@ body {
   justify-items: center;
 }
 
-/* Narrow /mobile */
-@media (max-width: 1500px) {
+/* Narrow */
+@media (max-width: 1620px) {
   .body-container {
     display: flex;
     flex-direction: column;
@@ -48,10 +49,21 @@ body {
   }
 }
 /* Full screen */
-@media (min-width: 1580px) {
+@media (min-width: 1620px) {
   .body-container > div {
     margin-right: 15px;
     margin-left: 15px;
+  }
+}
+/* Mobile */
+@media (max-width: 475px) {
+  .projects-container {
+    margin-top: -4vh;
+  }
+}
+@media (max-width: 375px) {
+  .projects-container {
+    margin-top: 8vh;
   }
 }
 
@@ -68,7 +80,7 @@ body {
 }
 .header-bar > h1 {
   align-self: center;
-  padding-top: 1vh;
+  padding-top: 1.5vh;
   padding-left: 1vh;
 }
 .header-list {
@@ -102,9 +114,11 @@ body {
 .projects-container > div {
   height: 300px;
   width: 330px;
-  box-shadow: 8px 8px 10px var(--background-dark);
+  box-shadow: 8px 8px 12px 3px var(--background-dark);
+  border-radius: 10px;
   color: var(--colour-light);
   margin: 5px;
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -169,6 +183,7 @@ body {
 .bio-container > p {
   color: var(--colour-light);
   font-size: 1.2em;
+  margin-top: 3vh;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -178,6 +193,7 @@ body {
   width: 280px;
   opacity: 0.9;
   border: 7px solid;
+  margin-top: 2vh;
   border-color: var(--background-dark);
 }
 aside {
@@ -186,12 +202,18 @@ aside {
   height: 150px;
 }
 aside > img,
-.logo {
+.bio-logo {
   padding: 0.5vh;
   height: 5vh;
   width: 5vh;
+}
+.bio-logo {
+  color: #61dbfb;
 }
 
 /* To Do */
 
 /* Footer */
+/* make react logo the correct colour,
+change font,
+ */

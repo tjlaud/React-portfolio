@@ -12,7 +12,7 @@ function Bio() {
   return (
     <div className="bio-container">
       <h2>Thomas J Laud</h2>
-      <div classname="profile-pic">
+      <div className="profile-pic">
         <img src={profilePic} alt="profile" />
       </div>
 
@@ -25,11 +25,11 @@ function Bio() {
         frameworks and libraries:
       </p>
       <aside className="logo-bar">
-        <img src={htmlLogo} alt="html logo" />
-        <img src={cssLogo} alt="css logo" />
-        <img src={jsLogo} alt="javascript logo" />
-        <FaReact className="logo"></FaReact>
-        <img src={sassLogo} alt="sass logo" />
+        <img src={htmlLogo} alt="html logo" title="HTML 5" />
+        <img src={cssLogo} alt="css logo" title="CSS 3" />
+        <img src={jsLogo} alt="javascript logo" title="JavaScript ES6" />
+        <FaReact className="bio-logo" title="React"></FaReact>
+        <img src={sassLogo} alt="sass logo" title="Sass" />
       </aside>
     </div>
   );
