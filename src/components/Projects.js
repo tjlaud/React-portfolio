@@ -5,7 +5,7 @@ import cssProject from "../assets/css.png";
 import sleepProject from "../assets/sleeptracker.png";
 import peaProject from "../assets/peashooter.png";
 import pigProject from "../assets/pig.png";
-import starProject from "../assets/stargame.png";
+import portfolioProject from "../assets/portfolio.png";
 import { FaGithub, FaReact } from "react-icons/fa";
 import { GoBrowser } from "react-icons/go";
 
@@ -37,9 +37,87 @@ function Projects() {
           </div>
         </div>
         <p>
-          A React App to track sleep hours. An exercise in building a functional
-          UI. Using React, Material UI and SCSS.
+          A collaboration project between myself and a friend. Using React we
+          built an App that will track sleeping hours. I used React, Material UI
+          and SCSS to create the functioning UI framework.
         </p>
+      </div>
+
+      <div>
+        <h4>My Portfolio</h4>
+        <div className="project-embedded-div">
+          <img src={portfolioProject} alt="my portfolio page" />
+          <div className="portfolio-gitHub-icon">
+            <a
+              href="https://github.com/tjlaud/React-portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="My Portfolio (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>
+          The Portfolio web page you're currently viewing. Built from scratch
+          with React. In hindsight I wish I had used SCSS for the styling.
+        </p>
+      </div>
+
+      <div>
+        <h4>The Blocks Game</h4>
+        <div className="project-embedded-div">
+          <img src={peaProject} alt="my blocks project" />
+          <div>
+            <a
+              href="https://peashooter.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Blocks Game"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/Pea-Shooter-Game"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Blocks Game (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>
+          A break out game built in HTML Canvas. After completing the basic game
+          as part of a course I added sound effects, speed alterations to the
+          ball and the ability to spin the ball with the paddle.
+        </p>
+      </div>
+
+      <div>
+        <h4>The CSS Test Page</h4>
+        <div className="project-embedded-div">
+          <img src={cssProject} alt="my css project" />
+          <div>
+            <a
+              href="https://cssnavgridflex.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="CSS Project"
+            >
+              <GoBrowser className="project-embedded-link"></GoBrowser>
+            </a>
+            <a
+              href="https://github.com/tjlaud/css-nav-grid-flex"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="CSS Project (GitHub Repo)"
+            >
+              <FaGithub className="project-embedded-link"></FaGithub>
+            </a>
+          </div>
+        </div>
+        <p>A small project I built in order to test my knowledge of CSS.</p>
       </div>
 
       <div>
@@ -82,87 +160,9 @@ function Projects() {
           </div>
         </div>
         <p>
-          A dice rolling game. Two versions are available one in vanilla JS and
-          one built with React.
+          Two versions of the same game. The pure JS version was built as part
+          of a course. I then rebuilt the project in React.
         </p>
-      </div>
-
-      <div>
-        <h4>The Blocks Game</h4>
-        <div className="project-embedded-div">
-          <img src={peaProject} alt="my blocks project" />
-          <div>
-            <a
-              href="https://peashooter.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Blocks Game"
-            >
-              <GoBrowser className="project-embedded-link"></GoBrowser>
-            </a>
-            <a
-              href="https://github.com/tjlaud/Pea-Shooter-Game"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Blocks Game (GitHub Repo)"
-            >
-              <FaGithub className="project-embedded-link"></FaGithub>
-            </a>
-          </div>
-        </div>
-        <p>A break out game built in HTML Canvas.</p>
-      </div>
-
-      <div>
-        <h4>The CSS Test Page</h4>
-        <div className="project-embedded-div">
-          <img src={cssProject} alt="my css project" />
-          <div>
-            <a
-              href="https://cssnavgridflex.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="CSS Project"
-            >
-              <GoBrowser className="project-embedded-link"></GoBrowser>
-            </a>
-            <a
-              href="https://github.com/tjlaud/css-nav-grid-flex"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="CSS Project (GitHub Repo)"
-            >
-              <FaGithub className="project-embedded-link"></FaGithub>
-            </a>
-          </div>
-        </div>
-        <p>A single page used to test various elements of CSS.</p>
-      </div>
-
-      <div>
-        <h4>The Star Countdown Game</h4>
-        <div className="project-embedded-div">
-          <img src={starProject} alt="my star game" />
-          <div>
-            <a
-              href="https://stargamereact.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Star Game (React)"
-            >
-              <FaReact className="project-embedded-link"></FaReact>
-            </a>
-            <a
-              href="https://github.com/tjlaud/React-exercise-Star-Game"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Star Game (GitHub Repo)"
-            >
-              <FaGithub className="project-embedded-link"></FaGithub>
-            </a>
-          </div>
-        </div>
-        <p>A counting game built with React.</p>
       </div>
 
       <div>
@@ -205,8 +205,9 @@ function Projects() {
           </div>
         </div>
         <p>
-          A simple calculator used to determine the life of a battery. Two
-          versions are available one in vanilla JS and one built with React.
+          Built on request of an electrical engineer. A calculator used to
+          determine the life of a battery. I built two versions from scratch,
+          one in vanilla JS and one in React.
         </p>
       </div>
     </div>

@@ -69,13 +69,13 @@ body {
   text-align: center;
 }
 .projects-container > div {
-  height: 300px;
+  height: 330px;
   width: 330px;
   box-shadow: 8px 8px 12px 3px var(--background-dark);
   border-radius: 10px;
   color: var(--colour-light);
-  margin: 5px;
-  margin-bottom: 5vh;
+  margin: 3px;
+  margin-bottom: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -84,10 +84,11 @@ body {
   font-size: 1em;
   align-self: center;
   text-align: center;
+  margin-top: 10px;
 }
 .projects-container > div > h4 {
   align-self: center;
-  margin-bottom: 1px;
+  margin: 5px;
 }
 /* Contains picture AND links Div */
 .project-embedded-div {
@@ -115,15 +116,16 @@ body {
   align-items: center;
   justify-items: center;
 }
-/* Description of project */
-.projects-container > div > p {
-  margin: 10px;
-}
+
 .project-embedded-link {
   padding: 0.5vh;
   height: 5vh;
   width: 5vh;
   color: var(--colour-bright);
+}
+/* tweak to porfolio icon */
+.portfolio-gitHub-icon {
+  margin-left: 40px;
 }
 
 /* -------- Bio -------- */
