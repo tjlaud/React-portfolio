@@ -44,7 +44,7 @@ function Projects() {
       </div>
 
       <div>
-        <h4>My Portfolio</h4>
+        <h4>Portfolio Web Page</h4>
         <div className="project-embedded-div">
           <img src={portfolioProject} alt="my portfolio page" />
           <div className="portfolio-gitHub-icon">
@@ -89,8 +89,9 @@ function Projects() {
         </div>
         <p>
           A break out game built in HTML Canvas. After completing the basic game
-          as part of a course I added sound effects, speed alterations to the
-          ball and the ability to spin the ball with the paddle.
+          as part of a course I restyled the visuals, added sound effects, speed
+          alterations to the ball and the ability to spin the ball with the
+          paddle.
         </p>
       </div>
 
@@ -161,7 +162,7 @@ function Projects() {
         </div>
         <p>
           Two versions of the same game. The pure JS version was built as part
-          of a course. I then rebuilt the project in React.
+          of a course. I then rebuilt the project in React from the ground up.
         </p>
       </div>
 
